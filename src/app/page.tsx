@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <p>faspifja</p>
+        <p id="sobre">sobre</p>
       </main>
     </>
   );
