@@ -1,27 +1,27 @@
 import { useState } from 'react';
 
-// eslint-disable-next-line func-names
+ 
 const Header = function () {
 	const [showNav, setShowNav] = useState(false);
 
 	return (
 		<header className="
-     bg-black p-4 sticky top-0 w-full
-      md:flex md:justify-around md:items-center md:align-middle md:mx-auto
+			backdrop-blur-sm px-8 py-3 sticky top-0 w-full
+			lg:w-8/12 lg:mx-auto lg:justify-between lg:items-center lg:align-middle lg:flex 
      "
 		>
 			<div className="flex justify-between">
 				<a
 					href="#inicio"
 					className="
-            text-2xl font-semibold
-            md:text-3xl
-          "
+						text-2xl font-semibold
+						md:text-3xl
+					"
 				>
-          Henrik Santos
+					Henrik Santos
 				</a>
 
-				<button type="button" className="md:hidden" onClick={() => setShowNav((prev) => !prev)}>
+				<button type="button" className="lg:hidden" onClick={() => setShowNav((prev) => !prev)}>
 					{
 						showNav ? (
 							<svg
@@ -56,7 +56,8 @@ const Header = function () {
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
 							>
-								<rect y="0.463776" width="38" height="1.18841" fill="white" />
+								<rect width="38" height="1.18841" fill="white" />
+								
 								<rect width="38" height="1.18841" transform="matrix(1 0 0 -1 0 12.3478)" fill="white" />
 							</svg>
 						)
@@ -64,32 +65,33 @@ const Header = function () {
 				</button>
 			</div>
 			<nav
-				className={
-					`${showNav ? 'flex' : 'hidden'} flex-col mt-5 min-h-screen font-normal
-          md:flex md:flex-row md:min-h-full md:mt-0 md:px-3 md:text-lg md:w-4/12 md:justify-between`
-				}
+				className={`
+					${showNav ? 'block' : 'hidden'}
+					flex-col mt-5 min-h-screen font-normal
+					lg:flex lg:flex-row lg:min-h-full lg:mt-0 lg:px-3 lg:text-lg lg:w-4/12 lg:justify-between
+					`}
 			>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#sobre">
-          Sobre
+					Sobre
 				</a>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#stack">
-          Stack
+					Stack
 				</a>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#projetos">
-          Projetos
+					Projetos
 				</a>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#formacao">
-          Formação
+					Formação
 				</a>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#contato">
-          Contato
+					Contato
 				</a>
-				<hr className="opacity-50" />
+				<hr className="opacity-50 my-3 lg:hidden" />
 			</nav>
 		</header>
 	);

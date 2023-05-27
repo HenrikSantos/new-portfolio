@@ -21,13 +21,11 @@ module.exports = {
 	],
 	'rules': {
 		'react/react-in-jsx-scope': 'off',
-		'indent': [
-			'error',
-			'tab'
-		],
+		'indent': [2, 'tab'],
+		'no-tabs': 0,
 		'linebreak-style': [
 			'error',
-			'unix'
+			'windows'
 		],
 		'quotes': [
 			'error',

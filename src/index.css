@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --emphasis: #24c0eb;
+    --primary: #082b34;
+    --secundary: #07323d;
+    /* --emphasis: #24c0eb;
+    --primary: #2f3035;
+    --secundary: #2f3035; */
+}
+
+.primary {
+    @apply bg-[var(--primary)] py-2
+};
+
+.secundary {
+    @apply bg-[var(--secundary)] py-2
+}
+
+.emphasis {
+    @apply text-[var(--emphasis)]
+}
