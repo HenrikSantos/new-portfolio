@@ -1,6 +1,6 @@
 export default function Stack() {
 	return (
-		<section id='stack' className='mt-5 mb-7 mx-8 flex justify-center flex-col lg:w-8/12'>
+		<section id='stack' className='mx-3 flex justify-center flex-col lg:w-8/12'>
 			<h1 className='mb-1'><span className='text-xl'>Stack</span>:</h1>
 			<ul className='flex flex-col space-y-1 font-light text-sm'>
 				<li>
