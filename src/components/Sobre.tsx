@@ -1,10 +1,10 @@
 export default function Sobre() {
 	return (
-		<section
+		<aside
 			id='sobre'
 			className='
-				primary mx-auto flex justify-center flex-col my-5
-				lg:w-8/12'
+				primary mx-auto md:mx-0 flex justify-center flex-col my-5
+				lg:w-4/12'
 		>
 			<div className='mx-4 flex flex-col'>
 				<h1 className='font-bold text-4xl'>Henrik Santos</h1>
@@ -40,6 +40,6 @@ export default function Sobre() {
 					</a>
 				</div>
 			</div>
-		</section>
+		</aside>
 	);
 }

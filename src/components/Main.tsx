@@ -8,11 +8,15 @@ export default function Main() {
 	return (
 		<main>
 			<Inicio />
-			<Sobre />
-			<Stack />
-			<Projetos />
-			<Fomacao />
-			<Contato />
+			<div className='md:flex md:justify-between lg:w-8/12 mx-auto'>
+				<Sobre />
+				<div className='w-full'>
+					<Stack />
+					<Projetos />
+					<Fomacao />
+					<Contato />
+				</div>
+			</div>
 		</main>
 	);
 }
