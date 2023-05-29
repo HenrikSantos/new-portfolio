@@ -12,11 +12,11 @@
 }
 
 .primary {
-    @apply bg-[var(--primary)] py-2
+    @apply bg-[var(--primary)]
 };
 
 .secundary {
-    @apply bg-[var(--secundary)] py-2
+    @apply bg-[var(--secundary)]
 }
 
 .emphasis {

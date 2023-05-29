@@ -4,9 +4,9 @@ export default function Sobre() {
 			id='sobre'
 			className='
 				primary mx-auto md:mx-0 flex justify-center flex-col my-5
-				lg:w-4/12'
+				lg:w-4/12 md:my-0 md:sticky top-[25rem]'
 		>
-			<div className='mx-4 flex flex-col'>
+			<div className='mx-8 flex flex-col md:mx-0'>
 				<h1 className='font-bold text-4xl'>Henrik Santos</h1>
 				<h2 className='text-xl font-light'>
 					<span className='emphasis'>Desenvolvedor Web</span>

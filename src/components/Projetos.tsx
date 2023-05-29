@@ -1,5 +1,9 @@
 export default function Projetos() {
 	return (
-		<div>Projetos</div>
+		<div>
+			<h1 className='font-bold text-4xl'>
+				Projetos:
+			</h1>
+		</div>
 	);
 }

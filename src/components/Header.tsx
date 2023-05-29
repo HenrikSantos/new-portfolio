@@ -7,7 +7,7 @@ const Header = function () {
 	return (
 		<header className="
 			backdrop-blur-sm px-8 py-3 sticky top-0 w-full
-			lg:w-8/12 lg:mx-auto lg:justify-between lg:items-center lg:align-middle lg:flex 
+			lg:w-8/12 lg:mx-auto lg:justify-between lg:items-center lg:align-middle lg:flex lg:px-0 lg:py-4
      "
 		>
 			<div className="flex justify-between">
@@ -15,7 +15,7 @@ const Header = function () {
 					href="#inicio"
 					className="
 						text-2xl font-semibold
-						md:text-3xl
+						md:font-bold md:text-4xl
 					"
 				>
 					Henrik Santos
@@ -68,28 +68,20 @@ const Header = function () {
 				className={`
 					${showNav ? 'block' : 'hidden'}
 					flex-col mt-5 min-h-screen font-normal
-					lg:flex lg:flex-row lg:min-h-full lg:mt-0 lg:px-3 lg:text-lg lg:w-4/12 lg:justify-between
+					lg:flex lg:flex-row lg:min-h-full lg:mt-0 lg:px-3 lg:text-lg lg:w-4/12 lg:justify-end lg:gap-5
 					`}
 			>
 				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#sobre">
-					Sobre
-				</a>
-				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#stack">
+				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#stack">
 					Stack
 				</a>
 				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#projetos">
+				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#projetos">
 					Projetos
 				</a>
 				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#formacao">
+				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#formacao">
 					Formação
-				</a>
-				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded" href="#contato">
-					Contato
 				</a>
 				<hr className="opacity-50 my-3 lg:hidden" />
 			</nav>
