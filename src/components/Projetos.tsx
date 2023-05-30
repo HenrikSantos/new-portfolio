@@ -10,7 +10,7 @@ export default function Projetos() {
 				data.map((projeto) => (
 					<div key={ projeto.id} className='rounded secundary w-11/12 mt-5 mx-auto'>
 						<img
-							src={`/public/${projeto.img}`}
+							src={`src/assets/${projeto.img}`}
 							alt={`projeto ${projeto.nome}`}
 							className='rounded-t-md mx-auto w-full'
 						/>
