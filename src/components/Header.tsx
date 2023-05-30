@@ -15,7 +15,7 @@ const Header = function () {
 					href="#inicio"
 					className="
 						text-2xl font-semibold
-						md:font-bold md:text-4xl
+						md:font-bold md:text-4xl flex gap-3
 					"
 				>
 					Henrik Santos

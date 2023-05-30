@@ -1,8 +1,8 @@
 export default function Stack() {
 	return (
-		<section id='stack' className='mx-3 flex justify-center flex-col'>
+		<section id='stack' className='flex justify-center flex-col'>
 			<h1 className='mb-1'><span className='font-semibold text-4xl'>Stack:</span></h1>
-			<ul className='flex flex-col space-y-1 font-light text-sm'>
+			<ul className='flex flex-col space-y-1 font-thin mx-3'>
 				<li>
 					- <span className='underline text-lg'>Front End</span>: HTML, CSS, Javascript, TypeScript, React, Redux Tailwind e Bootstrap;
 				</li>
