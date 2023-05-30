@@ -1,5 +1,4 @@
 import { data } from './projetosData.json';
-import AppDeReceitas from '../assets/AppDeReceitas.png';
 
 export default function Projetos() {
 	return (
@@ -11,8 +10,8 @@ export default function Projetos() {
 				data.map((projeto) => (
 					<div key={ projeto.id} className='rounded secundary w-11/12 mt-5 mx-auto'>
 						<img
-							// src={`/src/assets/${projeto.img}`}
-							src={AppDeReceitas}
+							src={`/static/images/${projeto.img}`}
+							// src={AppDeReceitas}
 							alt={`projeto ${projeto.nome}`}
 							className='rounded-t-md mx-auto w-full'
 						/>
