@@ -9,7 +9,7 @@ export default function Main() {
 			<Inicio />
 			<div className='mx-auto md:flex md:items-start md:gap-16 lg:w-8/12'>
 				<Sobre />
-				<div className='flex w-full flex-col space-y-10 border-[var(--emphasis)] px-7 md:border-l'>
+				<div className='flex w-full flex-col space-y-10 border-[var(--emphasis)] px-7 md:border-l pb-6'>
 					<Stack />
 					<Projetos />
 					<Fomacao />
