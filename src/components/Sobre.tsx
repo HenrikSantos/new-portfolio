@@ -3,7 +3,7 @@ export default function Sobre() {
 		<aside
 			id='sobre'
 			className='
-				primary top-[25rem] mx-auto my-5 flex flex-col justify-center
+				primary top-[26rem] mx-auto my-5 flex flex-col justify-center
 				md:sticky md:m-0 lg:w-4/12'
 		>
 			<div className='mx-8 flex flex-col md:mx-0'>
