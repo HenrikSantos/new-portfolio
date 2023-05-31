@@ -6,16 +6,16 @@ const Header = function () {
 
 	return (
 		<header className="
-			backdrop-blur-sm px-8 py-3 sticky top-0 w-full
-			lg:w-8/12 lg:mx-auto lg:justify-between lg:items-center lg:align-middle lg:flex lg:px-0 lg:py-4
+			sticky top-0 w-full px-8 py-3 backdrop-blur-sm
+			lg:mx-auto lg:flex lg:w-8/12 lg:items-center lg:justify-between lg:px-0 lg:py-4 lg:align-middle
      "
 		>
 			<div className="flex justify-between">
 				<a
 					href="#inicio"
 					className="
-						text-2xl font-semibold
-						md:font-bold md:text-4xl flex gap-3
+						flex gap-3
+						text-2xl font-semibold md:text-4xl md:font-bold
 					"
 				>
 					Henrik Santos
@@ -25,7 +25,7 @@ const Header = function () {
 					{
 						showNav ? (
 							<svg
-								className="w-7 h-7"
+								className="h-7 w-7"
 								width="28"
 								height="28"
 								viewBox="0 0 28 28"
@@ -49,7 +49,7 @@ const Header = function () {
 							</svg>
 						) : (
 							<svg
-								className="w-7 h-7"
+								className="h-7 w-7"
 								width="38"
 								height="13"
 								viewBox="0 0 38 13"
@@ -67,23 +67,23 @@ const Header = function () {
 			<nav
 				className={`
 					${showNav ? 'block' : 'hidden'}
-					flex-col mt-5 min-h-screen font-normal
-					lg:flex lg:flex-row lg:min-h-full lg:mt-0 lg:px-3 lg:text-lg lg:w-4/12 lg:justify-end lg:gap-5
+					mt-5 min-h-screen flex-col font-normal
+					lg:mt-0 lg:flex lg:min-h-full lg:w-4/12 lg:flex-row lg:justify-end lg:gap-5 lg:px-3 lg:text-lg
 					`}
 			>
-				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#stack">
+				<hr className="my-3 opacity-50 lg:hidden" />
+				<a className="my-[0.30rem] rounded p-[0.35rem] tracking-wider hover:bg-[#383838]/50 md:font-semibold" href="#stack">
 					Stack
 				</a>
-				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#projetos">
+				<hr className="my-3 opacity-50 lg:hidden" />
+				<a className="my-[0.30rem] rounded p-[0.35rem] tracking-wider hover:bg-[#383838]/50 md:font-semibold" href="#projetos">
 					Projetos
 				</a>
-				<hr className="opacity-50 my-3 lg:hidden" />
-				<a className="my-[0.30rem] p-[0.35rem] hover:bg-[#383838]/50 rounded tracking-wider md:font-semibold" href="#formacao">
+				<hr className="my-3 opacity-50 lg:hidden" />
+				<a className="my-[0.30rem] rounded p-[0.35rem] tracking-wider hover:bg-[#383838]/50 md:font-semibold" href="#formacao">
 					Formação
 				</a>
-				<hr className="opacity-50 my-3 lg:hidden" />
+				<hr className="my-3 opacity-50 lg:hidden" />
 			</nav>
 		</header>
 	);

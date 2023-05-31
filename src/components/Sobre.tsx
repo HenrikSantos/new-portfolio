@@ -3,11 +3,11 @@ export default function Sobre() {
 		<aside
 			id='sobre'
 			className='
-				primary mx-auto md:mx-0 flex justify-center flex-col my-5
-				lg:w-4/12 md:my-0 md:sticky top-[25rem]'
+				primary top-[25rem] mx-auto my-5 flex flex-col justify-center
+				md:sticky md:m-0 lg:w-4/12'
 		>
 			<div className='mx-8 flex flex-col md:mx-0'>
-				<h1 className='font-bold text-4xl'>Henrik Santos</h1>
+				<h1 className='text-4xl font-bold'>Henrik Santos</h1>
 				<h2 className='text-xl font-light'>
 					<span className='emphasis'>Desenvolvedor Web</span>
 				</h2>

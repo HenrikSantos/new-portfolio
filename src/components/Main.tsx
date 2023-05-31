@@ -7,9 +7,9 @@ export default function Main() {
 	return (
 		<main>
 			<Inicio />
-			<div className='md:flex md:items-start lg:w-8/12 mx-auto md:gap-16'>
+			<div className='mx-auto md:flex md:items-start md:gap-16 lg:w-8/12'>
 				<Sobre />
-				<div className='w-full md:border-l border-[var(--emphasis)] px-7 flex flex-col space-y-10'>
+				<div className='flex w-full flex-col space-y-10 border-[var(--emphasis)] px-7 md:border-l'>
 					<Stack />
 					<Projetos />
 					<Fomacao />
