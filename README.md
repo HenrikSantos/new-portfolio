@@ -1,1 +1,1 @@
-# Portfolio made with React Vite and TypeScript.
+# Portfolio made with React, Tailwind and TypeScript.
