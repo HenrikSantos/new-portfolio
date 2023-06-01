@@ -21,6 +21,7 @@ export default function Sobre() {
 					<p>
 						- Meus hobbies são: programação, arte 2D/3D, jogos, criptografia e tecnologia 🎨.
 					</p>
+					<p>e-mail: henrik.ruan4@gmail.com</p>
 				</div>
 				<ul className='mt-3 flex items-stretch'>
 					<li className="mr-3 text-xs">
